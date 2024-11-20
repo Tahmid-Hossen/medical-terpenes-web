@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "ISO and cGMP Compliant Facility",
+    "description": "All processing is conducted in our state-of-the-art facility, adhering to ISO and cGMP standards for safety and quality assurance",
+    "icon": "/assets/images/icons/iso.png"
+  },
+  {
+    "id": "2",
+    "title": "Third-Party Tested for Purity",
+    "description": "Our Medical terpene products undergo rigorous third-party testing to guarantee they are free from pesticides, heavy metals, and solvents, ensuring safety and efficacy",
+    "icon": "/assets/images/icons/third-party.png"
+  },
+  {
+    "id": "3",
+    "title": "Sustainable Sourcing Practices",
+    "description": "Our sourcing practices prioritize sustainability and environmental responsibility, ensuring a greener future",
+    "icon": "/assets/images/icons/sustainable.png"
+  }
+]

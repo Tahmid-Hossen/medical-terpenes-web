@@ -1,0 +1,98 @@
+.product-table-data-area{
+
+background: rgba(0, 181, 220, 0.05);
+.product-table-data-area-info{
+    text-align:center;
+    span{
+        color: #00B5DC;
+        font-family: $roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 160%; /* 25.6px */
+    }
+    h3{
+        color: var(--Title-Text-Color, #171717);
+        text-align: center;
+        font-family: $roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%; /* 60px */
+        padding-bottom:16px;  
+        @media (max-width: 512px) {
+            font-size: 25px;                  
+        }  
+    }
+    p{
+        color: #4E4C4C;
+        text-align: center;
+        font-family: $roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%; /* 25.6px */
+        padding-bottom:40px; 
+
+    }
+}
+
+.product-table-data {
+    &__table {
+        width: 100%;
+        table {
+            width: 100%;
+        }
+        table,
+        th,
+        td {
+            // border-radius: 4px;
+            // border: 1px solid #687188;
+            background: #fff;
+            border-collapse: collapse;
+            padding: 10px;
+            & img{
+                width: 25px;
+            }
+        }
+        th,
+        td {
+            text-align: center; /* Center align all headers and data */
+        }
+        td {
+            padding-left: 16px;
+            &:first-child {
+                text-align: left; /* Left align the first column data */
+            }
+        }
+        th {
+            color: white;
+            background-color: #00B5DC;
+            text-align: center; /* Center align all headers */
+            font-family: $roboto;
+            font-size: 20px;
+            font-style: normal;
+            line-height: 23.44px;
+            font-weight: 700;
+            line-height: 26px;
+            text-transform: uppercase;
+            padding-left: 16px;
+            &:first-child {
+                background-color: #00CECD; /* Different background for the first column header */
+                color: black; /* Black text color for the first column header */
+            }
+        }
+        .tdTitle {
+            color: #212529;
+            text-align: left; /* Left align the first column data */
+            font-family: $roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            padding-left: 8px;
+        }
+    }
+}
+}

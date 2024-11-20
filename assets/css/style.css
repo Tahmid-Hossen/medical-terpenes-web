@@ -1,0 +1,301 @@
+.custom-btn {
+  font-size: 14px;
+  margin-left: 14px;
+}
+.radius-btn {
+  background: rgb(0, 206, 205);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 206, 205, 1) -20%,
+    rgb(35, 160, 237) 0%,
+    rgba(0, 189, 215, 1) 52%,
+    rgba(0, 181, 220, 1) 60%
+  );
+  color: #fff;
+
+  &:hover {
+    background: rgb(0, 206, 205);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 206, 205, 1) -20%,
+      rgb(40, 143, 202) 0%,
+      rgba(0, 189, 215, 1) 0%,
+      rgba(30, 155, 182, 1) 0%
+    );
+    color: #fff;
+  }
+}
+.banner-different-area {
+  height: 1024px;
+}
+
+.TestimonialCustomCard .card-left-site {
+  width: 10px !important;
+  background: #00b5dc !important;
+}
+
+.testimonialRating {
+  color: #00b5dc !important;
+  text-align: start;
+  margin-bottom: 24px;
+}
+.testimonialInnerBox {
+  position: relative;
+}
+
+.testimonialsIcons {
+  position: absolute;
+  right: -20px;
+  top: 20px;
+}
+.testimonialBgHoverEffect {
+  transition: background-color 0.1s ease-in-out;
+}
+.testimonialBgHoverEffect:hover {
+  background-color: #00b5dc;
+}
+.testimonialBgHoverEffect:hover .testimonialRating,
+.testimonialBgHoverEffect:hover .testimonialClientName,
+.testimonialBgHoverEffect:hover .testimonialBlogInfo {
+  color: #ffffff !important;
+}
+
+.testimonialBgHoverEffect:hover .card-left-site {
+  background-color: #ffffff !important;
+}
+.select-dropdown-two,
+.select-dropdown-two *,
+.select-dropdown,
+.select-dropdown * {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+.select-dropdown-two,
+.select-dropdown {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+}
+.select-dropdown-two select,
+.select-dropdown select {
+  font-size: 1rem;
+  color: #cccccc;
+  font-weight: normal;
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+.select-dropdown-two select:active,
+.select-dropdown-two select:focus,
+.select-dropdown select:active,
+.select-dropdown select:focus {
+  outline: none;
+  box-shadow: none;
+  color: black;
+}
+
+.select-dropdown-two:after,
+.select-dropdown:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+
+/* btn-custom-width this class work for the button width */
+
+.btn-custom-width {
+  width: 100% !important;
+}
+.card-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.chooseMedicalTerpenesBanner-md {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.chooseMedicalTerpenesBanner-lg {
+  display: none;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.custom-btn-order-table {
+  font-size: 14px;
+  border-radius: 4px;
+  color: #f5f5f5;
+}
+
+.manrope {
+  font-family: "Manrope", sans-serif;
+}
+.bg-cst-primary {
+  background-color: #00b5dc;
+}
+.quantityCardShadow {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.productSummaryCardShadow {
+  box-shadow: 0px 0px 30px 4px #00000014;
+}
+
+.userProfileUploader {
+  width: 265px;
+  height: 210px;
+}
+
+.inputLavalDefault {
+  font-family: var(--ff-roboto);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.6px;
+  color: #525252;
+  margin-bottom: 4px;
+}
+
+.defaultPlaceHolderStyle::placeholder {
+  font-family: var(--ff-roboto);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 22.4px;
+  color: #d4d4d4;
+}
+.profileImage{
+ 
+    height: "310px";
+    width: "330px"
+}
+.filepond--root {
+  height: 210px !important;
+  width: 265px !important;
+  border: 2px dashed black;
+  border-radius: 4px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+}
+
+.filepond--drop-label.filepond--drop-label label {
+  color: black !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  position: absolute;
+  bottom: -90%;
+}
+.filepond--drop-label::before {
+  content: "";
+  display: block;
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 10px;
+  position: relative;
+  top: 70%;
+  background-image: url("/assets/images/Dashboard/uloadImage.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.filepond--label-action {
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.filepond--image-preview-wrapper {
+  overflow: hidden !important;
+  top: -18px !important;
+  left: -15px !important;
+  height: 208px !important;
+  width: 260px !important;
+}
+.filepond--root .filepond--credits {
+  display: none;
+}
+
+.custom-select-wrapper .form-control {
+  -webkit-appearance: checkbox !important;
+}
+
+.fromPadding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* .//styleName: Body Medium/Body Medium, 400; */
+.secondary-order-title {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #1A1A1A;
+
+}
+
+.secondary-order-dis {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #555555;
+}
+
+@media (max-width: 767px) {
+  .col-md-12:last-child .card-img-top {
+    height: 200px !important; /* Example: specific height for the last image */
+  }
+}
+
+@media (min-width: 768px) {
+  .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+  }
+  .fromPadding {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+@media (min-width: 1024px) {
+  .btn-custom-width {
+    width: 75% !important; /* Width for large and larger screens */
+  }
+
+  .card-text {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+  }
+  .chooseMedicalTerpenesBanner-md {
+    display: none !important;
+  }
+
+  .chooseMedicalTerpenesBanner-lg {
+    display: block;
+  }
+}

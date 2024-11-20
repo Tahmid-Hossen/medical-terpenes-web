@@ -1,0 +1,38 @@
+[
+  {
+    "id": "1",
+    "iconClass": "flaticon-bed",
+    "title": "Bedroom",
+    "url": "/shop/terpenes"
+  },
+  {
+    "id": "2",
+    "iconClass": "flaticon-table",
+    "title": "Dining Table",
+    "url": "/shop/terpenes"
+  },
+  {
+    "id": "3",
+    "iconClass": "flaticon-sofa",
+    "title": "Sofa",
+    "url": "/shop/terpenes"
+  },
+  {
+    "id": "4",
+    "iconClass": "flaticon-armchair",
+    "title": "Armchair",
+    "url": "/shop/terpenes"
+  },
+  {
+    "id": "5",
+    "iconClass": "flaticon-chair",
+    "title": "Chair",
+    "url": "/shop/terpenes"
+  },
+  {
+    "id": "6",
+    "iconClass": "flaticon-desk-lamp",
+    "title": "Desk Lamp",
+    "url": "/shop/terpenes"
+  }
+]

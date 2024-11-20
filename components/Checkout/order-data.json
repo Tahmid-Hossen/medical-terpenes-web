@@ -1,0 +1,55 @@
+{
+    "customer": "66d2ba2a9302787f1f836ea2",
+    "customer_email": "tazul.bu44@gmail.com",
+    "products": [
+        {
+            "product": "66ee97b610cfb0e401ed52c6",
+            "name": "TK 41",
+            "sku": null,
+            "price": "10.00",
+            "quantity": 1,
+            "total": 10
+        }
+    ],
+    "sub_total": 10,
+    "tax_amount": 0,
+    "shipping_amount": 0,
+    "total": 10,
+    "payment_type": "CARD",
+    "coupon": null,
+    "shipping_details": {
+        "first_name": "Colton",
+        "last_name": "Lyons",
+        "email": "cito@mailinator.com",
+        "phone": "+1 (517) 982-6334",
+        "city": "Id maxime eu ducimu",
+        "province": "Laborum vitae incidi",
+        "country": "Autem aut qui molest",
+        "post_code": "10653",
+        "street_address": "Dolor ipsam ut simil"
+    },
+    "billing_details": {
+        "first_name": "Colton",
+        "last_name": "Lyons",
+        "email": "cito@mailinator.com",
+        "phone": "+1 (517) 982-6334",
+        "city": "Id maxime eu ducimu",
+        "province": "Laborum vitae incidi",
+        "country": "Autem aut qui molest",
+        "post_code": "10653",
+        "street_address": "Dolor ipsam ut simil"
+    },
+    "payment_info": {
+        "transection_id": "tgled5T8sLU3SzNuyqelH9V88DIZY",
+        "order_id": "55gjQX83szgpBeisrS426VAEU1UZY",
+        "location_id": "LC41VB8GW7XEH",
+        "approved_money": {
+            "amount": "1000",
+            "currency": "USD"
+        },
+        "card_details": {},
+        "status": "COMPLETED",
+        "source_type": "CARD",
+        "created_at": "2024-10-14T19:56:18.606Z"
+    }
+}

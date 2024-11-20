@@ -1,0 +1,85 @@
+
+/*=============================================
+=            shop            =
+=============================================*/
+
+.shop-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__left {
+    position: relative;
+    select {
+      width: 9.5rem;
+      height: 45px;
+    }
+    svg {
+      position: absolute;
+      color: $grey--seventeen;
+      font-size: 20px;
+      top: 50%;
+      right: 3px;
+      transform: translateY(-50%);
+      padding: 0;
+    }
+  }
+  &__center {
+    position: relative;
+    input {
+      height: 45px;
+      padding: 5px 60px 5px 20px;
+    }
+    .icon-search {
+      position: absolute;
+      top: 50%;
+      right: 18px;
+
+      padding: 0;
+      padding-left: 15px;
+
+      transform: translateY(-50%);
+
+      border-left: 1px solid $grey--two;
+      border-radius: 0;
+      svg {
+        font-size: 24px;
+        margin-right: 0;
+        &:hover{
+          color: $theme-color--default;
+        }
+      }
+    }
+  }
+}
+
+.sorting-icon {
+  font-size: 25px;
+  line-height: 45px;
+
+  width: 45px;
+  height: 45px;
+  margin-right: 10px;
+  padding: 0;
+
+  text-align: center;
+
+  border: 1px solid $grey--fourteen;
+  border-radius: 4px;
+  background: none;
+  svg {
+    margin-bottom: 5px;
+  }
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover,
+  &.active {
+    color: $white;
+    border-color: $theme-color--default;
+    background-color: $theme-color--default;
+  }
+}
+
+/*=====  End of shop  ======*/
+

@@ -1,0 +1,12 @@
+html, body {
+    font-family: "Roboto", sans-serif !important;
+}
+
+.small-text {
+    font-size: 0.875rem; /* equivalent to text-sm */
+}
+
+.my-account-active {
+    color: #00B5DC !important;
+    font-weight: bold;
+}

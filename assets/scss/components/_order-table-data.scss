@@ -1,0 +1,61 @@
+.order-table-data-area{
+
+background: #fff;
+
+
+.order-table-data {
+    &__table {
+        width: 100%;
+        table {
+            width: 100%;
+        }
+        table,
+        th,
+        td {
+            // border-radius: 4px;
+            border: 1px solid #687188;
+            background: #fff;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+        th,
+        td {
+            text-align: center; /* Center align all headers and data */
+        }
+        td {
+            padding-left: 16px;
+            &:first-child {
+                text-align: left; /* Left align the first column data */
+            }
+        }
+        th {
+            color: white;
+            background-color: #00B5DC;
+            text-align: center; /* Center align all headers */
+            font-family: $roboto;
+            font-size: 20px;
+            font-style: normal;
+            line-height: 23.44px;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            padding-left: 16px;
+            &:first-child {
+                background-color: #00CECD; /* Different background for the first column header */
+                color: black; /* Black text color for the first column header */
+            }
+        }
+        .tdTitle {
+            color: #212529;
+            text-align: left; /* Left align the first column data */
+            font-family: $roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            text-transform: uppercase;
+            padding-left: 8px;
+        }
+    }
+}
+}

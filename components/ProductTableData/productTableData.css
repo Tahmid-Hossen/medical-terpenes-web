@@ -1,0 +1,25 @@
+.product-table-data__table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table-data__table th,
+.product-table-data__table td {
+    text-align: center; /* Center-align text */
+    padding: 10px; /* Add some padding for better spacing */
+    border: 1px solid #ddd; /* Optional: Add borders to cells */
+}
+
+.product-table-data__table th {
+    background-color: #f2f2f2; /* Optional: Add a background color to headers */
+}
+
+.product-table-data__table img {
+    display: inline-block;
+    vertical-align: middle; /* Ensures images are vertically centered */
+}
+
+.product-table-data-area {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}

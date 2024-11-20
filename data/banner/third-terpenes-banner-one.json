@@ -1,0 +1,20 @@
+[
+  {
+    "id": "1",
+    "title": "Organic and Naturally Derived Terpene Products",
+    "description": "Our terpene products are sourced from organic and naturally derived materials, ensuring purity and quality  ",
+    "icon": "/assets/images/icons/organic.png"
+  },
+  {
+    "id": "2",
+    "title": "Premium Terpene Materials",
+    "description": "We carefully select the highest quality terpene raw materials and isolates renowned for their exceptional aroma and purity.",
+    "icon": "/assets/images/icons/prmium.png"
+  },
+  {
+    "id": "3",
+    "title": "Strain-Specific Profiles",
+    "description": "Our skilled team blends and compounds terpene raw materials and isolates into precise strain-specific profiles, ensuring consistency and potency",
+    "icon": "/assets/images/icons/strain.png"
+  }
+]

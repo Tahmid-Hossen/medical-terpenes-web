@@ -1,0 +1,196 @@
+
+/*=============================================
+=            faq            =
+=============================================*/
+.faq-content-grid-home-area {
+  h5 {
+      color: var(--black, #000);
+      /* Heading/H5 */
+      font-family: $roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%; /* 33.6px */
+  }
+  p {
+      color: var(--black, #000);
+      /* Text/Regular/Normal */
+      font-family: $roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+  }
+  &__custom-blog-meta {
+      padding: 5px 15px 5px 15px;
+      a {
+          color: var(--black, #000);
+
+          /* Text/Small/Normal */
+          font-family: $roboto;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 150%; /* 21px */
+      }
+  }
+  .faq-home-area-title-custom {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+      align-items: start;
+      h5 {
+          color: #171717;
+          text-align: start;
+          font-family: $roboto;
+          font-size: 35px;
+          font-style: normal;
+          line-height:46.88px;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: uppercase;
+      }
+      p{
+          color: #2499D5 !important;
+          font-family: $roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 160%; /* 25.6px */
+      }
+
+      .faq-area-title-hr {
+          border-radius: 100px;
+          width: 5%;
+          height: 4px;
+          background-color: #ff324d;
+          margin-bottom: 40px;
+      }
+  }
+}
+
+.faq-accordion {
+  --bs-accordion-border-radius: 0 ;
+  --bs-accordion-inner-border-radius: 0;
+  --bs-accordion-color: var(--heading-color);
+  --bs-accordion-btn-color: var(--heading-color);
+  --bs-accordion-border-width: 0;
+  --bs-accordion-btn-padding-x: 0;
+  --bs-accordion-btn-padding-y: 0;
+  --bs-accordion-body-padding-y: 1.25rem;
+  --bs-accordion-btn-icon: none;
+  --bs-accordion-btn-active-icon: none;
+
+  --bs-accordion-btn-focus-border-color: transparent;
+  --bs-accordion-btn-focus-box-shadow: none;
+
+  --bs-accordion-active-color: var(--heading-color);
+  --bs-accordion-active-bg: transparent;
+  .accordion {
+    &-item {
+      border: 1px solid $grey--eleven;
+      border-radius: 24px;
+      &:not(:last-child) {
+        margin-bottom: 20px;
+      }
+    }
+    
+    &-header {
+      padding: 20px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+      background: #00B5DC;
+      border-radius: 24px 24px 0 0;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        background: #00a2cf;
+      }
+      &:has(button[aria-expanded="false"]){
+        border-radius: 24px 24px;
+      }
+    }
+  
+    &-button {
+      font-weight: 600;
+      // padding-bottom: 15px;
+      // padding-right: 40px;
+      background: transparent;
+      color: $white;
+      position: relative;
+      svg {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      &:hover {
+        // color: $blue;
+        background: transparent;
+      }
+    }
+  
+    &-body {
+      padding: 20px;
+      text-align: justify;
+      border-radius: 0 0 24px 24px;
+      background: #e3f7fb;
+    }
+  }
+  
+  
+  
+}
+
+.single-faq {
+  margin-bottom: 20px;
+
+  border: 0;
+  border-radius: 0;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .card-header {
+    margin-bottom: 0 !important;
+    padding: 0;
+
+    background-color: transparent;
+    button {
+      width: 100%;
+      padding: 0 40px 15px 0;
+
+      text-align: left;
+
+      border: none;
+      background: none;
+      h3 {
+        font-size: 16px;
+        font-weight: 600;
+
+        position: relative;
+
+        margin-bottom: 0;
+
+        transition: $transition--default;
+        svg {
+          position: absolute;
+          top: 50%;
+          right: -30px;
+
+          transform: translateY(-50%);
+        }
+      }
+      &:hover {
+        h3 {
+          color: $theme-color--default;
+        }
+      }
+    }
+  }
+
+  .card-body {
+    padding-left: 0;
+  }
+}
+
+/*=====  End of faq  ======*/
+
